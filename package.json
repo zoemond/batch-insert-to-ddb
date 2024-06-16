@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/zoemond/batch-insert-to-ddb/issues"
   },
-  "homepage": "https://github.com/zoemond/batch-insert-to-ddb#readme"
+  "homepage": "https://github.com/zoemond/batch-insert-to-ddb#readme",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.598.0",
+    "@types/node": "^20.14.2",
+    "commander": "^12.1.0"
+  }
 }
